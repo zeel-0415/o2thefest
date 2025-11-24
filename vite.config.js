@@ -5,10 +5,15 @@ export default defineConfig({
   plugins: [react()],
 
   worker: {
-    format: "es", // ← REQUIRED for pdfjs workers
+    format: "es", // REQUIRED for pdfjs workers
   },
 
   optimizeDeps: {
     include: ["pdfjs-dist"],
   },
+
+  // REQUIRED FOR VERCEL
+  build: {
+    outDir: "dist",
+  }
 });
