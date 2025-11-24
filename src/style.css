@@ -21,7 +21,7 @@ body::before{
   content:"";
   position:fixed;
   inset:0;
-  background-image: "./assets/IMG_5764.png";
+  background-image: "/IMG_5764.png";
   background-repeat:no-repeat;
   background-position:center center;
   background-size: contain;
@@ -100,7 +100,7 @@ body::before{
 .preview-badge{background:linear-gradient(90deg,var(--primary), #8be7ff);color:#00141a;padding:6px 8px;border-radius:8px;font-weight:800;font-size:12px}
 .preview-title{font-weight:800;font-size:18px}
 .preview-body{display:flex;gap:16px;align-items:center}
-.preview-art{width:140px;height:120px;border-radius:10px;background-image: "/assets/IMG_5764.png";background-size:cover;background-position:center;filter: blur(0px) saturate(1.05);box-shadow:0 10px 30px rgba(0,0,0,0.06)}
+.preview-art{width:140px;height:120px;border-radius:10px;background-image: "/IMG_5764.png";background-size:cover;background-position:center;filter: blur(0px) saturate(1.05);box-shadow:0 10px 30px rgba(0,0,0,0.06)}
 .preview-copy{flex:1}
 .p-title{font-weight:800;font-size:16px}
 .p-sub{color:var(--muted);font-size:13px;margin:6px 0}

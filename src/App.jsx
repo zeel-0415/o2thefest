@@ -118,7 +118,7 @@ export default function App() {
 
       <header className="topbar">
         <div className="topbar-inner">
-          <img src="/assets/IMG_5764.png" alt="logo" className="topbar-logo" />
+          <img src="/IMG_5764.png" alt="logo" className="topbar-logo" />
           <div className="topbar-title">O₂ THE FEST — Certificate Extractor</div>
         </div>
       </header>
