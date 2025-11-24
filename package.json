@@ -1,0 +1,22 @@
+{
+  "name": "o2-event-certificate-extractor",
+  "version": "1.0.0",
+  "private": true,
+  "description": "O2 Event Certificate Extractor Website — client-side PDF splitting by event name (second non-empty line)",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 4173"
+  },
+  "dependencies": {
+    "pdf-lib": "^1.17.1",
+    "pdfjs-dist": "^3.11.174",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "three": "^0.159.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.0.0",
+    "vite": "^5.0.0"
+  }
+}
